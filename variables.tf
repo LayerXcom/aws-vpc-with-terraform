@@ -9,15 +9,18 @@ variable "aws_region" {
 }
 
 variable "project_name" {
-  description = "project name"
+  description = "rayy"
+  default = "rayy"
 }
 
 variable "environment" {
   description = "environment(choice dev, stg, prd)"
+  default = "prd"
 }
 
 variable "vpc_cidr" {
   description = ""
+  default = "10.43.0.0/16"
 }
 
 variable "vgw_prefix" {
